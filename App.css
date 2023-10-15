@@ -1,0 +1,33 @@
+.App h1{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  color: #ff6f61;
+}
+
+.PostSelector {
+  margin: 20px 0;
+}
+
+.QuestionForm,
+.ArticleForm,
+.FindQuestion {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.QuestionForm {
+  border: 2px solid #3498db;
+}
+
+.ArticleForm {
+  border: 2px solid #e74c3c;
+}
+
+.FindQuestion {
+  border: 2px solid #27ae60;
+}

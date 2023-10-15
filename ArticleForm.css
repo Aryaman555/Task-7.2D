@@ -1,0 +1,78 @@
+.articleHeader {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title,
+.Abstract,
+.Article,
+.Tag {
+  margin: 10px 0;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.img {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Button {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.alert {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.img h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.articleHeader h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.article_text textarea {
+  width: 100%;
+  height: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}

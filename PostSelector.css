@@ -1,0 +1,37 @@
+.post-selector {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px;
+   background-color: #f7f7f7;
+   display: inline-block;
+   margin: 10px;
+}
+ 
+.label-container {
+   display: flex;
+   align-items: center;
+}
+ 
+label {
+   font-weight: bold;
+   margin-right: 10px;
+}
+ 
+.post-options {
+   margin-right: 20px;
+   display: flex;
+   align-items: center;
+}
+ 
+.post-options input[type="checkbox"] {
+   margin-right: 5px;
+}
+ 
+.post-options label {
+   font-size: 16px;
+}
+ 
+.post-options input[type="checkbox"]:checked + label {
+   color: #007bff;
+   font-weight: bold;
+}

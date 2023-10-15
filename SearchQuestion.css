@@ -1,0 +1,73 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  height: 5%;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  background-color: rgb(172, 179, 213);
+}
+
+.filter {
+  margin-bottom: 16px;
+  margin-left: 10px;
+}
+
+.filter h5{
+  margin: 2px;
+}
+
+.newQuestion {
+  margin-bottom: 16px;
+  margin-left: 10px;
+}
+
+.addNewQuestionHearder h1{
+  background-color: rgb(187, 240, 170);
+  margin-left: 10px;
+}
+
+.newQuestion h5{
+  margin:2px
+}
+
+
+button {
+  background-color: #00ef44;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ef44;
+}
+
+button:active {
+  background-color: #00ef44;
+  transform: translateY(2px);
+  
+
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #00ef44;
+  background-color: azure;
+}
